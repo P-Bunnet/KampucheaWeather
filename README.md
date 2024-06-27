@@ -12,4 +12,8 @@ KampucheaWeather is a simple iOS application built with Swift to check the weath
 - **CoreLocation**
 - **OpenWeatherMap API**
 
+## Notes
+
+All image being used in the application are AI generated
+
 ![IMG_6698](https://github.com/P-Bunnet/KampucheaWeather/assets/89001635/a1475404-c035-40b6-be6b-0a7a5dc02ed8)
