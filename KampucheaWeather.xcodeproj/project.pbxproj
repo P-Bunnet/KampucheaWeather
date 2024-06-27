@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D436F4B02C2D46FB00EF8BA2 /* KampucheaWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4AF2C2D46FB00EF8BA2 /* KampucheaWeatherApp.swift */; };
+		D436F4B22C2D46FB00EF8BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4B12C2D46FB00EF8BA2 /* ContentView.swift */; };
+		D436F4B42C2D46FB00EF8BA2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4B32C2D46FB00EF8BA2 /* Item.swift */; };
+		D436F4B62C2D46FC00EF8BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D436F4B52C2D46FC00EF8BA2 /* Assets.xcassets */; };
+		D436F4BA2C2D46FC00EF8BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D436F4B92C2D46FC00EF8BA2 /* Preview Assets.xcassets */; };
+		D436F4C42C2D46FC00EF8BA2 /* KampucheaWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4C32C2D46FC00EF8BA2 /* KampucheaWeatherTests.swift */; };
+		D436F4CE2C2D46FC00EF8BA2 /* KampucheaWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4CD2C2D46FC00EF8BA2 /* KampucheaWeatherUITests.swift */; };
+		D436F4D02C2D46FC00EF8BA2 /* KampucheaWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4CF2C2D46FC00EF8BA2 /* KampucheaWeatherUITestsLaunchTests.swift */; };
+		D436F4DE2C2D47F500EF8BA2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4DD2C2D47F500EF8BA2 /* LocationManager.swift */; };
+		D436F4E12C2D4AB100EF8BA2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4E02C2D4AB100EF8BA2 /* WelcomeView.swift */; };
+		D436F4E32C2D6F1200EF8BA2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4E22C2D6F1200EF8BA2 /* LoadingView.swift */; };
+		D436F4E62C2D734700EF8BA2 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4E52C2D734700EF8BA2 /* ColorExtension.swift */; };
+		D436F4E82C2D770E00EF8BA2 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4E72C2D770E00EF8BA2 /* WeatherManager.swift */; };
+		D436F4EA2C2D7AB800EF8BA2 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4E92C2D7AB800EF8BA2 /* WeatherView.swift */; };
+		D436F4EC2C2D7AF900EF8BA2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4EB2C2D7AF900EF8BA2 /* ModelData.swift */; };
+		D436F4EE2C2D7B1A00EF8BA2 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = D436F4ED2C2D7B1A00EF8BA2 /* weatherData.json */; };
+		D436F4F02C2D7BFD00EF8BA2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4EF2C2D7BFD00EF8BA2 /* Common.swift */; };
+		D436F4F22C2D817900EF8BA2 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436F4F12C2D817900EF8BA2 /* WeatherRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D436F4C02C2D46FC00EF8BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D436F4A42C2D46FB00EF8BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D436F4AB2C2D46FB00EF8BA2;
+			remoteInfo = KampucheaWeather;
+		};
+		D436F4CA2C2D46FC00EF8BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D436F4A42C2D46FB00EF8BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D436F4AB2C2D46FB00EF8BA2;
+			remoteInfo = KampucheaWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D436F4AC2C2D46FB00EF8BA2 /* KampucheaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KampucheaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436F4AF2C2D46FB00EF8BA2 /* KampucheaWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampucheaWeatherApp.swift; sourceTree = "<group>"; };
+		D436F4B12C2D46FB00EF8BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D436F4B32C2D46FB00EF8BA2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D436F4B52C2D46FC00EF8BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D436F4B72C2D46FC00EF8BA2 /* KampucheaWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KampucheaWeather.entitlements; sourceTree = "<group>"; };
+		D436F4B92C2D46FC00EF8BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D436F4BF2C2D46FC00EF8BA2 /* KampucheaWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KampucheaWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436F4C32C2D46FC00EF8BA2 /* KampucheaWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampucheaWeatherTests.swift; sourceTree = "<group>"; };
+		D436F4C92C2D46FC00EF8BA2 /* KampucheaWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KampucheaWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D436F4CD2C2D46FC00EF8BA2 /* KampucheaWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampucheaWeatherUITests.swift; sourceTree = "<group>"; };
+		D436F4CF2C2D46FC00EF8BA2 /* KampucheaWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampucheaWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D436F4DD2C2D47F500EF8BA2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D436F4E02C2D4AB100EF8BA2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D436F4E22C2D6F1200EF8BA2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D436F4E52C2D734700EF8BA2 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		D436F4E72C2D770E00EF8BA2 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		D436F4E92C2D7AB800EF8BA2 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		D436F4EB2C2D7AF900EF8BA2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D436F4ED2C2D7B1A00EF8BA2 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		D436F4EF2C2D7BFD00EF8BA2 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		D436F4F12C2D817900EF8BA2 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D436F4A92C2D46FB00EF8BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436F4BC2C2D46FC00EF8BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436F4C62C2D46FC00EF8BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D436F4A32C2D46FB00EF8BA2 = {
+			isa = PBXGroup;
+			children = (
+				D436F4AE2C2D46FB00EF8BA2 /* KampucheaWeather */,
+				D436F4C22C2D46FC00EF8BA2 /* KampucheaWeatherTests */,
+				D436F4CC2C2D46FC00EF8BA2 /* KampucheaWeatherUITests */,
+				D436F4AD2C2D46FB00EF8BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D436F4AD2C2D46FB00EF8BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4AC2C2D46FB00EF8BA2 /* KampucheaWeather.app */,
+				D436F4BF2C2D46FC00EF8BA2 /* KampucheaWeatherTests.xctest */,
+				D436F4C92C2D46FC00EF8BA2 /* KampucheaWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D436F4AE2C2D46FB00EF8BA2 /* KampucheaWeather */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4F32C2D82BF00EF8BA2 /* Components */,
+				D436F4E42C2D732F00EF8BA2 /* Extensions */,
+				D436F4DF2C2D4AA000EF8BA2 /* Views */,
+				D436F4DC2C2D47D100EF8BA2 /* Managers */,
+				D436F4AF2C2D46FB00EF8BA2 /* KampucheaWeatherApp.swift */,
+				D436F4B32C2D46FB00EF8BA2 /* Item.swift */,
+				D436F4B52C2D46FC00EF8BA2 /* Assets.xcassets */,
+				D436F4B72C2D46FC00EF8BA2 /* KampucheaWeather.entitlements */,
+				D436F4B82C2D46FC00EF8BA2 /* Preview Content */,
+			);
+			path = KampucheaWeather;
+			sourceTree = "<group>";
+		};
+		D436F4B82C2D46FC00EF8BA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4B92C2D46FC00EF8BA2 /* Preview Assets.xcassets */,
+				D436F4EB2C2D7AF900EF8BA2 /* ModelData.swift */,
+				D436F4ED2C2D7B1A00EF8BA2 /* weatherData.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D436F4C22C2D46FC00EF8BA2 /* KampucheaWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4C32C2D46FC00EF8BA2 /* KampucheaWeatherTests.swift */,
+			);
+			path = KampucheaWeatherTests;
+			sourceTree = "<group>";
+		};
+		D436F4CC2C2D46FC00EF8BA2 /* KampucheaWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4CD2C2D46FC00EF8BA2 /* KampucheaWeatherUITests.swift */,
+				D436F4CF2C2D46FC00EF8BA2 /* KampucheaWeatherUITestsLaunchTests.swift */,
+			);
+			path = KampucheaWeatherUITests;
+			sourceTree = "<group>";
+		};
+		D436F4DC2C2D47D100EF8BA2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4DD2C2D47F500EF8BA2 /* LocationManager.swift */,
+				D436F4E72C2D770E00EF8BA2 /* WeatherManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D436F4DF2C2D4AA000EF8BA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4B12C2D46FB00EF8BA2 /* ContentView.swift */,
+				D436F4E02C2D4AB100EF8BA2 /* WelcomeView.swift */,
+				D436F4E22C2D6F1200EF8BA2 /* LoadingView.swift */,
+				D436F4E92C2D7AB800EF8BA2 /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D436F4E42C2D732F00EF8BA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4E52C2D734700EF8BA2 /* ColorExtension.swift */,
+				D436F4EF2C2D7BFD00EF8BA2 /* Common.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D436F4F32C2D82BF00EF8BA2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D436F4F12C2D817900EF8BA2 /* WeatherRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D436F4AB2C2D46FB00EF8BA2 /* KampucheaWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D436F4D32C2D46FC00EF8BA2 /* Build configuration list for PBXNativeTarget "KampucheaWeather" */;
+			buildPhases = (
+				D436F4A82C2D46FB00EF8BA2 /* Sources */,
+				D436F4A92C2D46FB00EF8BA2 /* Frameworks */,
+				D436F4AA2C2D46FB00EF8BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KampucheaWeather;
+			productName = KampucheaWeather;
+			productReference = D436F4AC2C2D46FB00EF8BA2 /* KampucheaWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D436F4BE2C2D46FC00EF8BA2 /* KampucheaWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D436F4D62C2D46FC00EF8BA2 /* Build configuration list for PBXNativeTarget "KampucheaWeatherTests" */;
+			buildPhases = (
+				D436F4BB2C2D46FC00EF8BA2 /* Sources */,
+				D436F4BC2C2D46FC00EF8BA2 /* Frameworks */,
+				D436F4BD2C2D46FC00EF8BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D436F4C12C2D46FC00EF8BA2 /* PBXTargetDependency */,
+			);
+			name = KampucheaWeatherTests;
+			productName = KampucheaWeatherTests;
+			productReference = D436F4BF2C2D46FC00EF8BA2 /* KampucheaWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D436F4C82C2D46FC00EF8BA2 /* KampucheaWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D436F4D92C2D46FC00EF8BA2 /* Build configuration list for PBXNativeTarget "KampucheaWeatherUITests" */;
+			buildPhases = (
+				D436F4C52C2D46FC00EF8BA2 /* Sources */,
+				D436F4C62C2D46FC00EF8BA2 /* Frameworks */,
+				D436F4C72C2D46FC00EF8BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D436F4CB2C2D46FC00EF8BA2 /* PBXTargetDependency */,
+			);
+			name = KampucheaWeatherUITests;
+			productName = KampucheaWeatherUITests;
+			productReference = D436F4C92C2D46FC00EF8BA2 /* KampucheaWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D436F4A42C2D46FB00EF8BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D436F4AB2C2D46FB00EF8BA2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D436F4BE2C2D46FC00EF8BA2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D436F4AB2C2D46FB00EF8BA2;
+					};
+					D436F4C82C2D46FC00EF8BA2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D436F4AB2C2D46FB00EF8BA2;
+					};
+				};
+			};
+			buildConfigurationList = D436F4A72C2D46FB00EF8BA2 /* Build configuration list for PBXProject "KampucheaWeather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D436F4A32C2D46FB00EF8BA2;
+			productRefGroup = D436F4AD2C2D46FB00EF8BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D436F4AB2C2D46FB00EF8BA2 /* KampucheaWeather */,
+				D436F4BE2C2D46FC00EF8BA2 /* KampucheaWeatherTests */,
+				D436F4C82C2D46FC00EF8BA2 /* KampucheaWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D436F4AA2C2D46FB00EF8BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D436F4BA2C2D46FC00EF8BA2 /* Preview Assets.xcassets in Resources */,
+				D436F4EE2C2D7B1A00EF8BA2 /* weatherData.json in Resources */,
+				D436F4B62C2D46FC00EF8BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436F4BD2C2D46FC00EF8BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436F4C72C2D46FC00EF8BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D436F4A82C2D46FB00EF8BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D436F4E12C2D4AB100EF8BA2 /* WelcomeView.swift in Sources */,
+				D436F4DE2C2D47F500EF8BA2 /* LocationManager.swift in Sources */,
+				D436F4E82C2D770E00EF8BA2 /* WeatherManager.swift in Sources */,
+				D436F4F22C2D817900EF8BA2 /* WeatherRow.swift in Sources */,
+				D436F4B22C2D46FB00EF8BA2 /* ContentView.swift in Sources */,
+				D436F4F02C2D7BFD00EF8BA2 /* Common.swift in Sources */,
+				D436F4B42C2D46FB00EF8BA2 /* Item.swift in Sources */,
+				D436F4B02C2D46FB00EF8BA2 /* KampucheaWeatherApp.swift in Sources */,
+				D436F4EA2C2D7AB800EF8BA2 /* WeatherView.swift in Sources */,
+				D436F4EC2C2D7AF900EF8BA2 /* ModelData.swift in Sources */,
+				D436F4E62C2D734700EF8BA2 /* ColorExtension.swift in Sources */,
+				D436F4E32C2D6F1200EF8BA2 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436F4BB2C2D46FC00EF8BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D436F4C42C2D46FC00EF8BA2 /* KampucheaWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436F4C52C2D46FC00EF8BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D436F4CE2C2D46FC00EF8BA2 /* KampucheaWeatherUITests.swift in Sources */,
+				D436F4D02C2D46FC00EF8BA2 /* KampucheaWeatherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D436F4C12C2D46FC00EF8BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D436F4AB2C2D46FB00EF8BA2 /* KampucheaWeather */;
+			targetProxy = D436F4C02C2D46FC00EF8BA2 /* PBXContainerItemProxy */;
+		};
+		D436F4CB2C2D46FC00EF8BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D436F4AB2C2D46FB00EF8BA2 /* KampucheaWeather */;
+			targetProxy = D436F4CA2C2D46FC00EF8BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D436F4D12C2D46FC00EF8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D436F4D22C2D46FC00EF8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D436F4D42C2D46FC00EF8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KampucheaWeather/KampucheaWeather.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KampucheaWeather/Preview Content\"";
+				DEVELOPMENT_TEAM = 82L7WAV4M2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bunnetphoung.KampucheaWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D436F4D52C2D46FC00EF8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KampucheaWeather/KampucheaWeather.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KampucheaWeather/Preview Content\"";
+				DEVELOPMENT_TEAM = 82L7WAV4M2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bunnetphoung.KampucheaWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D436F4D72C2D46FC00EF8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82L7WAV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bunnetphoung.KampucheaWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KampucheaWeather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KampucheaWeather";
+			};
+			name = Debug;
+		};
+		D436F4D82C2D46FC00EF8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82L7WAV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bunnetphoung.KampucheaWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KampucheaWeather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KampucheaWeather";
+			};
+			name = Release;
+		};
+		D436F4DA2C2D46FC00EF8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82L7WAV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bunnetphoung.KampucheaWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KampucheaWeather;
+			};
+			name = Debug;
+		};
+		D436F4DB2C2D46FC00EF8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82L7WAV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bunnetphoung.KampucheaWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KampucheaWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D436F4A72C2D46FB00EF8BA2 /* Build configuration list for PBXProject "KampucheaWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D436F4D12C2D46FC00EF8BA2 /* Debug */,
+				D436F4D22C2D46FC00EF8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D436F4D32C2D46FC00EF8BA2 /* Build configuration list for PBXNativeTarget "KampucheaWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D436F4D42C2D46FC00EF8BA2 /* Debug */,
+				D436F4D52C2D46FC00EF8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D436F4D62C2D46FC00EF8BA2 /* Build configuration list for PBXNativeTarget "KampucheaWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D436F4D72C2D46FC00EF8BA2 /* Debug */,
+				D436F4D82C2D46FC00EF8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D436F4D92C2D46FC00EF8BA2 /* Build configuration list for PBXNativeTarget "KampucheaWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D436F4DA2C2D46FC00EF8BA2 /* Debug */,
+				D436F4DB2C2D46FC00EF8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D436F4A42C2D46FB00EF8BA2 /* Project object */;
+}

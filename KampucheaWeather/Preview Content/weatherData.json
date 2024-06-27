@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 104.916,
+        "lat": 11.5625
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 33.95,
+        "feels_like": 37.01,
+        "temp_min": 33.95,
+        "temp_max": 33.95,
+        "pressure": 1006,
+        "humidity": 46
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 0,
+        "deg": 0
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1719485299,
+    "sys": {
+        "type": 1,
+        "id": 9109,
+        "country": "KH",
+        "sunrise": 1719441561,
+        "sunset": 1719487634
+    },
+    "timezone": 25200,
+    "id": 1821306,
+    "name": "Phnom Penh",
+    "cod": 200
+}
